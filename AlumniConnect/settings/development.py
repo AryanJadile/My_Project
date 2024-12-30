@@ -11,14 +11,14 @@ ALLOWED_HOSTS = ['*']
 # EMAIL SETTINGS
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_FROM = 'pvpitconnect@gmail.com'
-EMAIL_HOST_USER = 'pvpitconnect@gmail.com'
+EMAIL_FROM = 'jadilearyan95@gmail.com'
+EMAIL_HOST_USER = 'jadilearyan95@gmail.com'
 EMAIL_HOST_PASSWORD = 'dcnabpuieczdjnfl'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-DEFAULT_FROM_EMAIL = "pvpitconnect@gmail.com"
-BCC_EMAILS = ["bpvpitconnect@gmail.com", "pvpitconnect@gmail.com"]
+DEFAULT_FROM_EMAIL = "jadilearyan95@gmail.com"
+BCC_EMAILS = ["bjadilearyan95@gmail.com", "jadilearyan95@gmail.com"]
 
 if DEBUG:
     STATICFILES_DIRS = (os.path.join(BASE_DIR, '..', 'static/'),)

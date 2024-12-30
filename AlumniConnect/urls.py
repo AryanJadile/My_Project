@@ -25,7 +25,7 @@ from os import listdir
 from .  import views
 
 
-favicon_view = RedirectView.as_view(url='/static/faviconn.ico', permanent=True)
+favicon_view = RedirectView.as_view(url='/static/faviconnn.ico', permanent=True)
 urlpatterns = []
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
@@ -59,7 +59,7 @@ urlpatterns += [
     path('chapter/', include('applications.chapter.urls')),
     path('adminportal/', include('applications.adminportal.urls')),
     path('jobs/', include('applications.job_posting.urls')),
-    re_path(r'faviconn.ico', favicon_view),
+    re_path(r'faviconnn.ico', favicon_view),
     path('constitution/', views.constitution, name='constitution'),
     #path('', views.index, name='home'),
 ]
